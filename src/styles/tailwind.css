@@ -1,0 +1,23 @@
+@tailwind base;
+
+/* Your own custom base styles */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Your own custom component styles */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
+body {
+  background-color: #283462 !important;
+}
+@media (min-width: 1536px) {
+  .container {
+    max-width: inherit;
+  }
+}

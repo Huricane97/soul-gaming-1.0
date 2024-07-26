@@ -1,0 +1,33 @@
+@media screen and (max-width: 768px) {
+  .sectionStyle {
+    height: 100% !important;
+    width: 100% !important;
+    background-color: #c2e1f5;
+  }
+}
+
+.sectionStyle {
+  height: 1207px;
+  width: 2070px; /* This will be applied for screens wider than 768px */
+  background-color: #c2e1f5;
+}
+.sectionStyle1 {
+  background-image: url('../../public/assets/imgs/Mask_section.webp');
+  background-repeat: no-repeat;
+  height: 1107px;
+  width: 2070px;
+}
+
+.buttons-side {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+  gap: 300px;
+  top: -315px;
+  left: -108px;
+}
+.iccon {
+  font-size: 32px;
+  color: white;
+}

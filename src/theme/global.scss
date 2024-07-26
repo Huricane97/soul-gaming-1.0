@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'TT_Chocolates';
+  src:
+    local('TT_Chocolates'),
+    url('../assets/fonts/tt_chocolates/TT Chocolates Trial Regular.otf') format('truetype'); /* Super Modern Browsers */
+}
+@font-face {
+  font-family: 'expansiva';
+  src:
+    local('expansiva'),
+    url('../assets/fonts/expansiva/Expansiva.otf') format('truetype'); /* Super Modern Browsers */
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  font-family: 'expansiva' !important;
+  background: #0a0710;
+}

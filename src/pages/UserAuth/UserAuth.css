@@ -1,0 +1,49 @@
+src/styles.css
+/* .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        height: 100vh;
+    background-color: #283462;
+  }
+*/
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #283462;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  } 
+  
+  input {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  button {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'TT_Chocolates' !important;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+  }
+  
